@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>RDA.Task._2</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Dota.png" />
+    <None Remove="Images\Furyga.jpg" />
+    <None Remove="Images\gta5.png" />
+    <None Remove="Images\pngegg.png" />
+    <None Remove="Images\RBSX.png" />
+    <None Remove="Images\Rust.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignColors" Version="2.1.1" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Dota.png" />
+    <Resource Include="Images\Furyga.jpg" />
+    <Resource Include="Images\gta5.png" />
+    <Resource Include="Images\pngegg.png" />
+    <Resource Include="Images\RBSX.png" />
+    <Resource Include="Images\Rust.png" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,28 @@
+﻿<Window x:Class="RDA.Task._2.Windows"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RDA.Task._2"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Background="Transparent"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        AllowsTransparency="True"
+        Title="Windows" 
+        Height="450" 
+        Width="900">
+    <Grid x:Name="Move"
+        MouseDown="Move_MouseDown">
+        <Frame NavigationUIVisibility="Hidden"
+               x:Name="MainFrame"/>
+        <Frame NavigationUIVisibility="Hidden"
+               x:Name="Main1Frame"/>
+        <Frame NavigationUIVisibility="Hidden"
+               x:Name="Main2Frame"/>
+        <Frame NavigationUIVisibility="Hidden"
+               x:Name="Main3Frame"/>
+    </Grid>
+</Window>
